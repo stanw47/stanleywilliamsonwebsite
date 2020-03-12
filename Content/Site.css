@@ -48,7 +48,7 @@ body {
     background-position: center;
     background-size: cover;
 }
-
+/*the jumbotron is now invisible so that the background could be visible*/
 .jumbotron {
     background: none
 }
@@ -104,6 +104,7 @@ p {
 .navbar-nav li a:hover {
     color: #1abc9c !important;
 }
+/*the buttons are invisible on purpose not because it's necessarily functional, but because it looks better*/
 .btn {
     background: none;
     

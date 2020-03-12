@@ -2,6 +2,8 @@
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="jumbotron">
+         <%-- the back to home button is there just as another option to navigate, even though the home button is located in the navbar. we all love buttons don't we, most useful for mobile browsers --%>
+<a class="btn btn-default" href="Default.aspx">Back To Home</a>
         <h1 class="text-center">Development Experience</h1>
         <p class="lead">Here is where I will showcase my programming abilities, projects, and my home setup where everything happens. </p>
         <div class="text-center">
