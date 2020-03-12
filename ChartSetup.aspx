@@ -2,6 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
     <div class="jumbotron">
+        <%-- the button takes you back to the trading home page, just as another navigation option if needed. It's most useful on mobile browsers --%>
         <a class="btn btn-default" href="Trading.aspx">Back To Trading</a>
         <h1 class="text-center">Chart Setup</h1>
         <p class="lead text-center">Right below is my Chart Setup on MetaTrader, and an explanation of why I use the Indicators that I do.

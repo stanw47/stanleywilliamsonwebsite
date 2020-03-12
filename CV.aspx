@@ -1,5 +1,6 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="CV.aspx.cs" Inherits="stanleywilliamsonwebsite.CV" %>
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
+    <%-- this script is for the accordion menu that expands to let you see the contents of the category. It's just for show --%>
 <script type="text/javascript">
 $(document).ready(function(){
   $(".accordion p").hide();
@@ -17,7 +18,7 @@ $(document).ready(function(){
         <h1 class="text-center">CV</h1>
     <p class="lead">Stanley Williamson | Stanleywilliamson47@gmail.com | +1(240)444-5097 | Located in Glen Burnie, MD</p>
         <div class="accordion">
-
+<%-- this is where the accordion menu is located --%>
   <h3>Education</h3>
   <p>High School Diploma | June 5th, 2017 | Franklin High School<br />
   Mount St Mary's University | 2017-2018 | Major: Forensic Accounting<br />

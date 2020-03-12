@@ -1,7 +1,7 @@
 ﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="stanleywilliamsonwebsite._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
-<%--  --%>
+<%-- i used the br's below to try to level all of the button's quickly --%>
     <div class="jumbotron">
         <h1 class="text-center">Welcome!</h1>
         <p class="lead text-center">My name is Stanley, and I am passionate about many things. This website will show you bits of what I can and can't do, and will outline my 

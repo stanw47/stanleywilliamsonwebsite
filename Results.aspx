@@ -3,6 +3,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
     <div class="jumbotron">
+        <%-- i put a button here so that you can be easily navigated back to the main trading page, most useful for mobile browsers --%>
         <a class="btn btn-default" href="Trading.aspx">Back To Trading</a>
         <h1 class="text-center">May, 2019 Results</h1>
         <p>Below, you will find a statement of an example month in which I traded my strategy for Audacity Capital, with a chart at the bottom, and some quick stats.</p>
@@ -12,13 +13,14 @@
 
 
 <table>
+    <%-- this is where the account information and identifying information goes --%>
 <tbody><tr>
     <td colspan="2"><b>Account: 50890844</b></td>
     <td colspan="5"><b>Name: Stanley Williamson</b></td>
     <td colspan="2"><b>Currency: USD</b></td>
     <td colspan="2"><b>Leverage: 1:5</b></td>
     <td colspan="3"><b>2019 May 27, 19:08</b></td></tr>
-
+    <%-- this is the section where all of the trades taken for the period of time go --%>
 <tr><td colspan="13"><b>Closed Transactions:</b></td></tr>
 <tr>
    <td>Ticket</td><td>Open Time</td><td>   Type     </td><td>  Size  </td><td>  Item  </td>
@@ -77,7 +79,7 @@
 <tr><td title="[tp]">68559057</td><td class="msdate">2019.05.24 16:36:26</td><td>sell</td><td class="mspt">0.30</td><td>gbpusd</td><td>1.26960</td><td>0.00000</td><td>1.26859</td><td class="msdate">2019.05.24 17:28:36</td><td>1.26857</td><td class="mspt">0.00</td><td class="mspt">0.00</td><td class="mspt">0.00</td><td class="mspt">30.90</td></tr>
 <tr><td title="[tp]">68566277</td><td class="msdate">2019.05.27 02:21:07</td><td>sell</td><td class="mspt">0.30</td><td>gbpnzd</td><td>1.94166</td><td>0.00000</td><td>1.93694</td><td class="msdate">2019.05.27 12:07:55</td><td>1.93694</td><td class="mspt">0.00</td><td class="mspt">0.00</td><td class="mspt">0.00</td><td class="mspt">92.69</td></tr>
 <tr><td>68581735</td><td>2019.05.27 17:04:15</td><td>sell</td><td class="mspt">0.30</td><td>gbpnzd</td><td>1.93712</td><td>0.00000</td><td>1.93644</td><td class="msdate">2019.05.27 23:24:47</td><td>1.93712</td><td class="mspt">0.00</td><td class="mspt">0.00</td><td class="mspt">0.00</td><td class="mspt">0.00</td></tr>
-
+    <%-- all of the stats that sum up the trades taken go here, they're for putting the trades into perspective --%>
 
 <tr>
     <td colspan="10">&nbsp;</td>
