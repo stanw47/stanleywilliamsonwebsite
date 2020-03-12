@@ -32,10 +32,11 @@ $(document).ready(function(){
   Microsoft Azure Administrator Associate Certification | 2020</p>
   <h3 style="cursor:pointer">Knowledge & Experience</h3>
   <p>2016: Busser at The Grill at Harryman House<br />
-  2016-2018: Stock & Sales Associate at Abercrombie & Fitch<br />
+      Stock & Sales Associate at Abercrombie & Fitch<br />
   2018: Started Full time Day Trading Stocks<br />
+      Quit at Abercrombie after moving<br />
   2019: Started Trading for Audacity Capital in London<br />
-  2019: Started doing QA testing for Career.Place</p>
+  Started doing QA testing for Career.Place</p>
 </div>
         <p class="lead">Stanley Williamson | Stanleywilliamson47@gmail.com | +1(240)444-5097 | Located in Glen Burnie, MD</p>
 </div>
