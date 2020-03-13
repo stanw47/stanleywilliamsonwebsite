@@ -64,7 +64,7 @@
       </li>
                         <li><a runat="server" href="Development Experience.aspx">IT/Programming</a></li>
                         <li><a runat="server" href="CV.aspx">CV</a></li>
-                        <li><a runat="server" href="~/About Me">About Me</a></li>
+                        
                         <li><a runat="server" href="~/Contact">Contact</a></li>
                     </ul>
                 </div>

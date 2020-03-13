@@ -4,9 +4,8 @@
 <%-- i used the br's below to try to level all of the button's quickly --%>
     <div class="jumbotron">
         <h1 class="text-center">Welcome!</h1>
-        <p class="lead text-center">My name is Stanley, and I am passionate about many things. This website will show you bits of what I can and can't do, and will outline my 
-            experience which I will also try to back-up.<br />
-            This website was built with ASP.NET, and this site was deployed & is hosted using Microsoft Azure, a product that I strongly believe in.
+        <p class="lead text-center">Hello, name is Stanley. This website will outline my passions, abilities, and experience.<br />
+            This was built with the .NET Framework, and deployed with Microsoft Azure, a product that I strongly believe in.
         </p>
         <div class="text-center">
         <p><a href="https://www.linkedin.com/in/stanley-williamson-835840146/" class="btn btn-primary btn-lg center" target="_blank">LinkedIn Profile</a></p>
@@ -28,9 +27,9 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Development & IT Experience</h2>
+            <h2>Programming & IT Experience</h2>
             <p>
-                Click here to learn more about my experience with Software & Web Development, and see what I work with.
+                Click here to learn more about my experience with Software & Web Development.
                 <br />
                 <br />
                
@@ -42,7 +41,7 @@
         <div class="col-md-4">
             <h2>Work Experience</h2>
             <p>
-                Click here to learn more about where I have worked. This is essentially my CV in a web page.
+                Click here to learn more about where I have worked and studied. This is essentially my CV.
                 <br />
                 <br />
                 <br />

@@ -5,6 +5,12 @@
             <a class="btn btn-default" href="Development Experience.aspx">Back To IT/Programming</a>
         </div>
         <h1 class="text-center">Programming Experience</h1>
+        <p class="text-center">Growing up, I would build webpages with my favorite Flash Games. I did it because I was lazy! I just plugged them into my website, labeled the pages, and just selected the game I wanted. At the time, it was like having a shelf to fit all of your game disks, except on an online library full of free to play games! I shared the links with all of my friends, and was able to play these games in school too, since the school did not block webpage building sites.
+
+Something else I took great interest in growing up was mobile devices. I would buy used electronics, fix them up, and sell them. I even paid my business taxes! One thing I was good at was reprovisioning devices. For CDMA devices, I would call up the carrier, ask for the MSL Code (Master Susidy Lock Code), update the PRL, change the device network settings to match that from a dolor CDMA phone (as in copying information from my parent's phones), and VOILA! I've got myself kinda free data! The tool I used was QPST, and when I couldn't use QPST, I just did it manually from the phone's settings using dialer codes.
+
+
+</p>
         <p class="text-center">In terms of Programming, I have learned scripting from using NodeJS working with Career.Place. Most of the knowledge I have though, is from experience playing
             around with things. Most of my exposure is to Microsoft Products & Services, which is why this site was created with a .NET Framework, jQuery, and Bootstrap.<br />
             The other website where I did my Market Crach project was made with ASP.NET Core 3.1. I took a Data Science course made by Johns Hopkins which gave me exposure to R.
