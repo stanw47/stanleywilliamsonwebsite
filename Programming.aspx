@@ -1,30 +1,39 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Programming.aspx.cs" Inherits="stanleywilliamsonwebsite.Programming" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+       <%-- this script is for the accordion menu that expands to let you see the contents of the category. It's just for show --%>
+<script type="text/javascript">
+$(document).ready(function(){
+  $(".accordion p").hide();
+  $(".accordion h3").click(function(){
+    $(this).next("p").slideToggle("slow")
+     .siblings("p:visible").slideUp("slow");
+    $(this).toggleClass("active");
+    $(this).siblings("h3").removeClass("active");
+  });
+});
+</script>
     <div>
         <div class="jumbotron">
             <a class="btn btn-default" href="Development Experience.aspx">Back To IT/Programming</a>
         </div>
         <h1 class="text-center">Programming Experience</h1>
-        <p class="text-center">Growing up, I would build webpages with my favorite Flash Games. I did it because I was lazy! I just plugged them into my website, labeled the pages, and just selected the game I wanted. At the time, it was like having a shelf to fit all of your game disks, except on an online library full of free to play games! I shared the links with all of my friends, and was able to play these games in school too, since the school did not block webpage building sites.
-
-Something else I took great interest in growing up was mobile devices. I would buy used electronics, fix them up, and sell them. I even paid my business taxes! One thing I was good at was reprovisioning devices. For CDMA devices, I would call up the carrier, ask for the MSL Code (Master Susidy Lock Code), update the PRL, change the device network settings to match that from a dolor CDMA phone (as in copying information from my parent's phones), and VOILA! I've got myself kinda free data! The tool I used was QPST, and when I couldn't use QPST, I just did it manually from the phone's settings using dialer codes.
-
-
-</p>
-        <p class="text-center">In terms of Programming, I have learned scripting from using NodeJS working with Career.Place. Most of the knowledge I have though, is from experience playing
-            around with things. Most of my exposure is to Microsoft Products & Services, which is why this site was created with a .NET Framework, jQuery, and Bootstrap.<br />
-            The other website where I did my Market Crach project was made with ASP.NET Core 3.1. I took a Data Science course made by Johns Hopkins which gave me exposure to R.
-            I've worked with and used HTML and CSS since my childhood, and Javascript is more recent for me. I have experience with PowerShell and Bash, mostly because of Azure. I also have experience using Azure and GitHub for source control, so I am well aware of where to publish, when to publish, and how to make sure I do not lose my work.<br />
-            In terms of whether or not I can program with any other languages in another context, I have a process for figuring out how to accomplish a task with the language. First, I will look at example code and
-            determine what pieces of code do what. I will take a piece of code and intentionally get it to not function, since it is easier to know what NOT to do than what to do. I will also determine what pieces of code are specifically contextual, and can only be used in the context of the example code I found.<br />
-            Then next, I will look around in the code to determine what I could take out with the code still being able to run. After that, I will determine how exactly I could get pieces of code to
-            function how I need it to in a relatively efficient way. I know that less code is not always a good thing, so I will dramatically try to shorten code that was initially very long, but
-            make sure I don't skimp out on the functional integrity of the program.<br />
-            Finally, I will create my own library in the Notepad of my computer in which I will store pieces of code, and note the contexts in which I can use them. This is an important step for me.
-            I need my own personal library since I don't exactly know how to do many things without looking them up. Sometimees, I will plan ahead and create a library of code that I can take
-            and work with to get to do what I need it to, and I will also note what it is that I need the code to do, and the steps I can take to get it to that point.<br />
-            <br />
-            That is my process for working with both languages that I know well, and ones that I know nothing about. If you need something done in a language I don't know, I will handle it. That is a promise.
-        </p>
     </div>
+    <div class="accordion">
+<h3 style="cursor:pointer" class="text-center">The Beginnings</h3>
+<p>Growing up, I would create webpages where I would embed my favorite flash games, so that I could play them in school (since wix and others got past the filters), and not have to scour the web again for them.
+Anoter thing I did growing up was buy, repair, and sell mobile devices. It got to a point where I had to get a license and start paying taxes!<br />
+One thing I would do is call the CDMA carriers, like Sprint, and get the MSL (Master Subsidiary Lock Code). If I couldn't get it the first time, I would escalate the call until I got it.
+Then I used QPST (Since most CDMA phones had Qualcomm chipsets) to change the MSL code to 000000, and change the carrier settings & PRL. Then, I would take the data profile settings from one of my parent's phones and program it
+into my phone. I did not pay a phone bill in middle school, thanks to this workaround.<br />
+This is what got me interested in the world of IT and Programming.</p>
+<h3 style="cursor:pointer" class="text-center">Now</h3>
+<p>I do Testing for Career.Place. We use Jira to keep track of projects and track bugs. They're pushing me towards Automation, and I am working on becoming a versatile programmer.
+Some people don't believe that you can't be great at a ton of languages, but I believe that you can. I have a system and a few habits specifically for this:<br />
+-I keep my own Library where I store pieces of code for very specific contexts, and code that I will use or edit later.<br />
+-I look at code that other people wrote, and i pick it apart. I take pieces of code out until it stops working, because that helps me get a sense of what's essential, and whether or not it takes a lot
+to get a language to do what I need it to. Also, it's better to know what NOT to do if the language turns out to be unforgiving.<br />
+-I remember what context a language was originally created for, and work with and around it.</p>
+<h3 style="cursor:pointer" class="text-center">The Future</h3>
+<p>I am interested in Data Science. I want to use R, Python, Scala, and MQL very heavily. I can see myself getting into Big Data, and creating Trading Algorithms that open positions based on all of the data that I can scrape.</p>
+</div>
 </asp:Content>
