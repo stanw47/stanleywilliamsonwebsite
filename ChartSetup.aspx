@@ -7,14 +7,38 @@
         <h1 class="text-center">Chart Setup</h1>
         <p class="lead text-center">Right below is my Chart Setup on MetaTrader, and an explanation of why I use the Indicators that I do.
         </p>
-        <div class="text-center">
-        <img src="https://i.ibb.co/QbLFr5x/chart-setup.png" alt="chart-setup" border="0" class="center" height="720" width="1080">
-            </div>
-        <p class="text-center">Behind every movement in the markets is a story, and an elaborate one. With indicators, and access to news, you can start to think of
-            the story behind why the price is where it is at. Another thing is that trading is about "if" statements. If one event occurs, you'll react a certain way if certain
-            conditions are either met, or close to being met. You'll also set yourself up for the worst- so if the trade doesn't go your way, you'll keep your losses minimal.
-        </p>
+        </div>
+        <div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+  </ol>
+
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="https://i.ibb.co/T0dZ2FZ/Chart-Setup.jpg">
+      <div class="carousel-caption">
+      </div>
     </div>
+
+    <div class="item">
+      <img src="https://i.ibb.co/jkkg9Yw/fxchoice-chart.png">
+      <div class="carousel-caption">
+      </div>
+    </div>
+      </div>
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
 
     <div class="row">
         <div class="col-md-4">

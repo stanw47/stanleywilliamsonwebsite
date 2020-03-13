@@ -17,7 +17,7 @@
             I will also explain the indicators that I use in the chart
             </p>
             <p>
-                <a class="btn btn-default" href="ChartSetup.aspx">Chart Setup &raquo;</a>
+                <a class="btn btn-default" href="ChartSetup.aspx">Chart Setup</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -29,7 +29,7 @@
                 
             </p>
             <p>
-                <a class="btn btn-default" href="Strategy.aspx">Strategy &raquo;</a>
+                <a class="btn btn-default" href="Strategy.aspx">Strategy</a>
             </p>
         </div>
         <div class="col-md-4">
@@ -41,7 +41,7 @@
                 <br />
             </p>
             <p>
-                <a class="btn btn-default" href="Results.aspx">Results &raquo;</a>
+                <a class="btn btn-default" href="Results.aspx">Results</a>
             </p>
         </div>
     </div>

@@ -107,5 +107,5 @@ p {
 /*the buttons are invisible on purpose not because it's necessarily functional, but because it looks better*/
 .btn {
     background: none;
-    
+    color: white;
 }
