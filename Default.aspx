@@ -8,7 +8,9 @@
             This was built with the .NET Framework, and deployed with Microsoft Azure, a product that I strongly believe in.
         </p>
         <div class="text-center">
-        <p><a href="https://www.linkedin.com/in/stanley-williamson-835840146/" class="btn btn-primary btn-lg center" target="_blank">LinkedIn Profile</a></p>
+        <p><a href="https://www.linkedin.com/in/stanley-williamson-835840146/" class="btn btn-primary btn-lg center" target="_blank">LinkedIn Profile</a><a href="https://github.com/stanw47" class="btn btn-primary btn-lg" target="_blank">Github Profile</a>
+             <a class="btn btn-default" href="https://marketcrash.azurewebsites.net" target="_blank">MARKETCRASH Project</a>
+        </p>
         </div>
     </div>
 

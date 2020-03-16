@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChartSetup.aspx.cs" Inherits="stanleywilliamsonwebsite.ChartSetup" %>
+﻿<%@ Page Title="Chart Setup" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ChartSetup.aspx.cs" Inherits="stanleywilliamsonwebsite.ChartSetup" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     
     <div class="jumbotron">

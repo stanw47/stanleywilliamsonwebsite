@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Programming.aspx.cs" Inherits="stanleywilliamsonwebsite.Programming" %>
+﻿<%@ Page Title="Programming Experience" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Programming.aspx.cs" Inherits="stanleywilliamsonwebsite.Programming" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
        <%-- this script is for the accordion menu that expands to let you see the contents of the category. It's just for show --%>
 <script type="text/javascript">

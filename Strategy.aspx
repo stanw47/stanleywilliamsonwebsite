@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Strategy.aspx.cs" Inherits="stanleywilliamsonwebsite.Strategy" %>
+﻿<%@ Page Title="Trading Strategy" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Strategy.aspx.cs" Inherits="stanleywilliamsonwebsite.Strategy" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="jumbotron">
         <a class="btn btn-default" href="Trading.aspx">Back To Trading</a>
