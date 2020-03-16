@@ -4,7 +4,7 @@
 <%-- i used the br's below to try to level all of the button's quickly --%>
     <div class="jumbotron">
         <h1 class="text-center">Welcome!</h1>
-        <p class="lead text-center">Hello, name is Stanley. This website will outline my passions, abilities, and experience.<br />
+        <p class="lead text-center">Hello, my name is Stanley. This website will outline my passions, abilities, and experience.<br />
             This was built with the .NET Framework, and deployed with Microsoft Azure, a product that I strongly believe in.
         </p>
         <div class="text-center">
