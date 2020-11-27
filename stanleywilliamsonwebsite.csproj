@@ -115,6 +115,7 @@
     <Content Include="CV.aspx" />
     <Content Include="Default.aspx" />
     <Content Include="DeskSetup.aspx" />
+    <Content Include="Education.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -204,6 +205,13 @@
     </Compile>
     <Compile Include="DeskSetup.aspx.designer.cs">
       <DependentUpon>DeskSetup.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Education.aspx.cs">
+      <DependentUpon>Education.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Education.aspx.designer.cs">
+      <DependentUpon>Education.aspx</DependentUpon>
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>

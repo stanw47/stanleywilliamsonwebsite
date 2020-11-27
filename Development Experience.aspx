@@ -4,11 +4,11 @@
     <div class="jumbotron">
          <%-- the back to home button is there just as another option to navigate, even though the home button is located in the navbar. we all love buttons don't we, most useful for mobile browsers --%>
 <a class="btn btn-default" href="Default.aspx">Back To Home</a>
-        <h1 class="text-center">Programming & IT Experience</h1>
+        <h1 class="text-center">IT Experience</h1>
         <p class="lead text-center">Here is where I will showcase my programming abilities, projects, and my home setup. <br /><br />
-            Frameworks: .NET, React, Bootstrap<br />
-            Languages: HTML, CSS, Javascript, R, MQL5<br />
-            Libraries: jQuery, React
+            Frameworks: .NET, .NET Core, React<br />
+            Languages: HTML, CSS, Javascript, R, MQL5, Python, SQL<br />
+            Libraries: jQuery, Bootstrap
         </p>
         <div class="text-center">
         <p><a href="https://github.com/stanw47" class="btn btn-primary btn-lg" target="_blank">Github Profile</a></p>
@@ -35,13 +35,12 @@
             </p>
         </div>
         <div class="col-md-4">
-            <h2>Recent Project</h2>
+            <h2>Certifications & Education</h2>
             <p>
-                This is the lint to the site where I give about 10 different perspectives on the recent market crash using 10 different programming languages. Each language will be used
-                to presentt a different perspective on things. The site is a simple one, built with REACT.
+                This is where you can find my certifications that I have achieved, certifications in progress, work experience, and educational experience.
             </p>
             <p>
-                <a class="btn btn-default" href="https://marketcrash.azurewebsites.net" target="_blank">MARKETCRASH Project</a>
+                <a class="btn btn-default" href="CV.aspx">CV</a>
             </p>
         </div>
     </div>
