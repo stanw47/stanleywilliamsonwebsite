@@ -29,9 +29,9 @@ $(document).ready(function(){
         <h3 class="text-center" style="cursor:pointer">Certifications</h3>
         <p>MTA Database Administration Fundamentals<br />
             Axelos ITIL Foundations<br />
-            CompTIA A+ (In Progress)<br />
-            CompTIA Network+ (In Progress)<br />
-            CompTIA Security+ (In Progress)<br />
+            CompTIA A+<br />
+            CompTIA Network+<br />
+            CompTIA Security+<br />
             CompTIA Project+ (In Progress)<br />
             CompTIA CySA+ (Cybersecurity Analyst Certification)(In Progress)<br />
             CompTIA PenTest+ (In Progress)<br />
